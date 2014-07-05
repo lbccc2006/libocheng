@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wabaoyouxi</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">来挖宝吧！</string>
+    <string name="button1">挖宝者进入</string>
+    <string name="bottob2">投宝者进入</string>
+    <string name="button3">欢迎进入挖宝大厅！</string>
+    <string name="botton4">请选择宝物的价值高低</string>
+    <string name="button5">较低</string>
+    <string name="button6">较高</string>
+    <string name="button7">恭喜您，您挖到宝了，您是想现在直接把宝物拿走，还是想兑换成宝藏券，兑换其他宝物。</string>
+    <string name="button8">请点按上面的图片开始挖宝</string>
+    <string name="txetview">欢迎进入投宝大厅！</string>
+    <string name="biaoti">请选择投宝的范围</string>
+    <string-array name="marks"></string-array>
+    <string name="editview">请选择上传地址</string>
+    <string name="button9">图片</string>
+    <string name="button10">文字</string>
+    <string name="button11">直接拿走</string>
+    <string name="button12">兑换成宝藏券</string>
+    <string name="textview2">很遗憾，这次您什么也没挖到，别灰心下次再碰碰运气！</string>
+    <string name="edittext2">请问，您知道这件宝物的名称吗？请回答。</string>
+    <string name="textview3">恭喜您，回答正确，您是想现在就开始挖宝还是继续回答问题得到更大的宝藏？</string>
+    <string name="button13">现在就开始挖宝</string>
+    <string name="button14">继续回答问题</string>
+    <string name="textview4">首先，宝物根据其价值的高低大体分为两类，价值低的宝物可通过点按宝物图片随机产生，价值高的宝物需先回答出有关宝物的答题，只有回答真确后才有机会获得宝物。</string>
+    <string name="greeting">欢迎来到投宝大厅！</string>
+    <string name="textview5">首先，请根据上传宝物资料的种类，选择不同的地址，投宝者可按照自己意愿设计关于宝物的答题。</string>
+    <string name="tiket">宝物兑换券</string>
+    <string name="introduce">您可以与将此奖券打印出来，也可通过扫描二维码的方式兑换宝物。</string>
+    <string name="address">请选择输入上传资料的地址    </string>
+    <string name="spinner">请选择想兑换的宝物种类</string>
+    <string name="description">background image</string>
+    <string name="uploadbutton">上传</string>
+    <string name="liulanqi">浏览</string>
+    <string name="textview6">请将您详细的邮递地址填写在下边的地址栏中，以方便您能尽快收到宝物。</string>
+
+</resources>

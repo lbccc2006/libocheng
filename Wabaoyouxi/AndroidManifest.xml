@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wabaoyouxi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true" />
+    <supports-screens />
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/baozang"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.wabaoyouxi.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.wabaoyouxi.Myservice" >
+        </activity>
+        <activity android:name="com.example.wabaoyouxi.Myservice2" >
+        </activity>
+        <activity android:name="com.example.wabaoyouxi.Myservice3" >
+        </activity>
+        <activity android:name="com.example.wabaoyouxi.Myservice4" >
+        </activity>
+        <activity
+            android:name="com.example.wabaoyouxi.Myservice5"
+            android:permission="android.permission.INTERNET" 
+            >
+        </activity>
+        <activity android:name="com.example.wabaoyouxi.Myservice6" 
+            android:permission="android.permission.WRITE_EXTERNAL_STORAGE"
+        
+            >
+        </activity>
+        <activity android:name="com.example.wabaoyouxi.Myservice7" >
+        </activity>
+        <activity android:name="com.example.wabaoyouxi.Myservice8" >
+        </activity>
+        <activity android:name="com.example.wabaoyouxi.Myservice9" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <Button
+        android:id="@+id/tiket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/tiket" 
+        android:textColor="#FF0000"
+        android:textSize="25sp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/img04"
+        android:textColor="#FF0000" 
+        android:contentDescription="@string/description"/>
+
+    <EditText
+        android:id="@+id/intrduce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tiket"
+        android:layout_marginTop="26dp"
+
+        android:inputType="textMultiLine"
+        android:text="@string/introduce"
+        android:textColor="#FF0000"
+        android:textSize="25sp" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

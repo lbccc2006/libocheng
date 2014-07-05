@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/yuanb"
+        android:contentDescription="@string/description" />
+
+    <TextView
+        android:id="@+id/answer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:text="@string/textview3"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/dig2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="58dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/button13"
+        android:textColor="#FF0000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/continue_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dig2"
+        android:layout_alignBottom="@+id/dig2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="@string/button14"
+        android:textColor="#FF0000"
+        android:textSize="15sp" />
+
+</RelativeLayout>
